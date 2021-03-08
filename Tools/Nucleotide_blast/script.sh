@@ -1,1 +1,3 @@
-blastn -query file1.fa -subject file2.fa
+blastn -query file1.fasta -subject file2.fasta -outfmt 6 -out results.txt
+
+
